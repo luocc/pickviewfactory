@@ -1,14 +1,14 @@
-PickViewFactory Ò»ĞĞ´úÂëµ÷ÓÃ¾Í¿ÉÒÔÊµÏÖÎÒÃÇÏëÒªµÄĞ§¹û
+PickViewFactory ä¸€è¡Œä»£ç è°ƒç”¨å°±å¯ä»¥å®ç°æˆ‘ä»¬æƒ³è¦çš„æ•ˆæœ
 =========
-## ÌØ±ğËµÃ÷
-***´ËÀàÊÇÔÚAndroid-PickerView(https://github.com/Bigkoo/Android-PickerView)µÄ»ù´¡ÉÏ½øĞĞÁË·â×°£¬Ê¹µÃÒ»ĞĞ´úÂëµ÷ÓÃ¾Í¿ÉÒÔÊµÏÖÎÒÃÇÏëÒªµÄĞ§¹û***
+## ç‰¹åˆ«è¯´æ˜
+***æ­¤ç±»æ˜¯åœ¨Android-PickerView(https://github.com/Bigkoo/Android-PickerView)çš„åŸºç¡€ä¸Šè¿›è¡Œäº†å°è£…ï¼Œä½¿å¾—ä¸€è¡Œä»£ç è°ƒç”¨å°±å¯ä»¥å®ç°æˆ‘ä»¬æƒ³è¦çš„æ•ˆæœ***
 
-## Ğ§¹ûÔ¤ÀÀÍ¼
+## æ•ˆæœé¢„è§ˆå›¾
 
 ![](/art/demo1.gif) ![](/art/demo2.gif) ![](/art/demo3.gif)
 
 
-## ÈçºÎÊ¹ÓÃ
+## å¦‚ä½•ä½¿ç”¨
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void initData(){
-        //ÎŞÁª¶¯µÄÊı¾İ
+        //æ— è”åŠ¨çš„æ•°æ®
         food.add("KFC");
         food.add("MacDonald");
         food.add("Pizza hut");
@@ -43,20 +43,20 @@ public class MainActivity extends AppCompatActivity {
         computer.add("Apple");
         computer.add("HP");
 
-        //ÓĞÁª¶¯µÄÊı¾İ
-        options1Items.add("¹ã¶«");
-        options1Items.add("ºşÄÏ");
-        options1Items.add("¹ãÎ÷");
+        //æœ‰è”åŠ¨çš„æ•°æ®
+        options1Items.add("å¹¿ä¸œ");
+        options1Items.add("æ¹–å—");
+        options1Items.add("å¹¿è¥¿");
 
         ArrayList<String> options2Items_01 = new ArrayList<>();
-        options2Items_01.add("¹ãÖİ");
-        options2Items_01.add("¶«İ¸");
-        options2Items_01.add("Öéº£");
+        options2Items_01.add("å¹¿å·");
+        options2Items_01.add("ä¸œè");
+        options2Items_01.add("ç æµ·");
         ArrayList<String> options2Items_02 = new ArrayList<>();
-        options2Items_02.add("³¤É³");
-        options2Items_02.add("ÖêÖŞ");
+        options2Items_02.add("é•¿æ²™");
+        options2Items_02.add("æ ªæ´²");
         ArrayList<String> options2Items_03 = new ArrayList<>();
-        options2Items_03.add("ÓñÁÖ");
+        options2Items_03.add("ç‰æ—");
         options2Items.add(options2Items_01);
         options2Items.add(options2Items_02);
         options2Items.add(options2Items_03);
@@ -183,10 +183,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //¿É¸ù¾İĞèÒª×ÔĞĞ½ØÈ¡Êı¾İÏÔÊ¾
+    //å¯æ ¹æ®éœ€è¦è‡ªè¡Œæˆªå–æ•°æ®æ˜¾ç¤º
     private String date2String(Date date) {
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return format.format(date);
     }
 }
-# pickviewfactory
